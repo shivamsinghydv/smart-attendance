@@ -44,3 +44,30 @@ body {
     color: #38bdf8;
     text-decoration: none;
   }
+  
+.connection-diagram {
+  width: 90%;
+  margin-left: 5%; 
+}
+
+pre {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
+.code-block {
+      border: 1px solid #ccc;
+      margin: 1em 0;
+      padding: 1em;
+      border-radius: 5px;
+    }
+.code-header {
+      font-family: monospace;
+      background: #0f0f0f;
+      padding: 0.5em;
+      margin: 0;
+      border-bottom: 1px solid #ccc;
+    }
