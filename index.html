@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <h1>Smart Attendance System</h1>
+    <h1>Smart Attendance System Using RFID</h1>
   </header>
 
   <div class="section">
@@ -25,11 +25,11 @@
       </p>
     </section>
   </div>
-  <div>
+  <div class="section">
     <Section id=connection-diagram>
-      <h3>
-        Connection diagram: 
-      </h3>
+      <h2>
+        Connection Diagram: 
+      </h2>
       <Br>
         <img class="connection-diagram" src="src/iot_attendance_connections.png" alt="">
     </Section>
@@ -42,18 +42,18 @@
       <iframe src="https://www.youtube.com/embed/jnwNIZlFzg0" allowfullscreen></iframe>
     </div>
   </div>
-  <div>
-
+  <div class="section">
+    <h2>Source Code:</h2>
     <section class="code-block">
-      source code: 
+    
       <div class="code-header">File: `main.ino` | Language: C++</div>
       <pre>
         <code>
-#include SPI.h
-#include MFRC522.h
-#include LiquidCrystal.I2C.h
-#include Wire.h
-#include EEPROM.h
+#include &lt;SPI.h&gt;
+#include &lt;MFRC522.h&gt;
+#include &lt;LiquidCrystal.I2C.h&gt;
+#include &lt;Wire.h&gt;
+#include &lt;EEPROM.h&gt;
 
 // RFID pins - UPDATED for your hardware
 #define SS_PIN    5     // ESP32 pin GPIO5 connected to SDA/SS
@@ -544,7 +544,7 @@ void checkSerialCommands() {
   </div>
 
   <footer>
-    <p>© Shivam Kumar 2022. /github<a href="https://github.com/shivamsinghydv" target="_blank">GitHub</a></p>
+    <p>© Shivam Kumar 2022 <a href="https://github.com/shivamsinghydv" target="_blank">GitHub</a></p>
   </footer>
 </body>
 </html>
